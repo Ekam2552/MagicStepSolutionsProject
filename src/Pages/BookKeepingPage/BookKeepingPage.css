@@ -1,0 +1,192 @@
+.BookKeepingPageContainer {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.BookKeepingLeft {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.BookKeepingLeftUpper {
+    width: 100%;
+    height: 12%;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.BookKeepingCustomerAndSupplierDiv {
+    height: 60%;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+.BookKeepingCustomerDiv {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.BookKeepingSupplierDiv {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.BookKeepingActiveDiv {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1F1F1F;
+    font-size: 1.2rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.BookKeepingCustomerInactiveDiv {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #656565;
+    transition: all 0.3s ease;
+}
+
+.BookKeepingActiveLine {
+    width: 100%;
+    height: 10%;
+    background-color: #2ECC71;
+    transition: all 0.3s ease;
+}
+
+.BookKeepingCustomerInactiveLine {
+    width: 100%;
+    height: 10%;
+    background-color: #FFFFFF;
+    transition: all 0.3s ease;
+}
+
+.BookKeepingLeftLower {
+    width: 100%;
+    height: 88%;
+    background-color: #E4E4E4;
+    display: flex;
+    flex-direction: column;
+}
+
+.BookKeepingCardComponentListDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 85%;
+    overflow: auto;
+}
+.BookKeepingCardComponentListDiv > * {
+    margin: 1rem 0;
+}
+
+.BookKeepingPlusIconDiv{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.BookKeepingPlusIconDiv > * {
+    margin-right: 3rem;
+}
+
+.BookKeepingPlusIconCircle {
+    width: auto;
+    height: auto;
+    background-color: #6C63FF;
+    padding: 1rem 1.2rem;
+    border-radius: 50%;
+    font-size: 1.3rem;
+}
+
+.BookKeepingPlusIcon {
+    color: #E4E4E4;
+    transition: all 0.2s ease-in-out;
+}
+
+.BookKeepingPlusIcon:hover {
+    transform: rotate(90deg);
+}
+
+
+.BookKeepingRight {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.BookKeepingRightUpper {
+    width: 100%;
+    height: 12%;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: flex-end;
+}
+
+.BookKeepingRightUpper > * {
+    margin-left: 3rem;
+}
+
+.BookKeepingSearchBarDiv {
+    height: 70%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.BookKeepingSearchBar {
+    width: 100%;
+    height: 60%;
+    border: 1.5px solid #CED4DA;
+    background-color: #ECECEC;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    padding: 3px 10px;
+    transition: 0.2s all ease;
+    margin-top: 0.3rem;
+}
+
+.BookKeepingSearchBar:hover {
+    border-color: #81AAE9;
+}
+
+.BookKeepingSearchBar:focus {
+    outline: none;
+    border-color: #81AAE9;
+    box-shadow: 0px 0px 8px 0px rgba(129,170,233,0.93);
+    -webkit-box-shadow: 0px 0px 8px 0px rgba(129,170,233,0.93);
+    -moz-box-shadow: 0px 0px 8px 0px rgba(129,170,233,0.93);
+}
+
+.BookKeepingRightLower {
+    width: 100%;
+    height: 88%;
+    background-color: #C4C4C4;
+}

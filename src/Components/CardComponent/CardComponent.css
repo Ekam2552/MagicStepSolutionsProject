@@ -1,0 +1,51 @@
+.CardContainer {
+    width: 60%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 0px 0px 8px -1px rgba(0,0,0,0.68);
+    -webkit-box-shadow: 0px 0px 8px -1px rgba(0,0,0,0.68);
+    -moz-box-shadow: 0px 0px 8px -1px rgba(0,0,0,0.68);
+}
+
+.CardContainer > * {
+    margin: 5% 0;
+}
+
+.imageContainer {
+    width: 50%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5%;
+    margin-bottom: 5%;
+}
+
+.imageContainer > img {
+    width: 70%;
+    height: auto;
+}
+
+.titleContainer {
+    width: 70%;
+    height: 10%;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.noteContainer {
+    width: 90%;
+    height: 10%;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: auto;
+}
