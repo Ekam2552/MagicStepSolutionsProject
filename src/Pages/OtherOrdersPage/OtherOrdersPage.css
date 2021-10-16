@@ -1,0 +1,68 @@
+.OtherOrdersPageContainer {
+    width: 100vw;
+    height: 100vh;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+}
+
+.OtherOrdersPageUpper {
+    width: 100%;
+    height: 8%;
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.OtherOrdersPageLower {
+    width: 100%;
+    height: 85%;
+    margin: auto 0;
+    display: flex;
+}
+
+.OtherOrdersPageLowerLeft {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.OtherOrdersPageProductCardDiv {
+    margin-top: 3rem;
+    margin-left: 3rem;
+    width: 40%;
+    height: 25%;
+    border: 1px solid red;
+}
+
+.OtherOrdersPageStatusDiv {
+    width: 30%;
+    height: 10%;
+    margin: auto auto;
+}
+
+.OtherOrdersPageStatusCard {
+    width: 100%;
+    height: 100%;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.OtherOrdersPageLowerMiddle {
+    width: 1.5px;
+    height: 100%;
+    background-color: #a09e9ee1;
+}
+
+.OtherOrdersPageLowerRight {
+    width: 50%;
+    height: 100%;
+    border: 1px solid blue;
+}

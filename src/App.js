@@ -2,6 +2,7 @@ import './App.css';
 import { ControlCentrePage } from "./Pages/ControlCentrePage/ControlCentrePage";
 import { AddDetailsPage } from "./Pages/AddDetailsPage/AddDetailsPage";
 import { BookKeepingPage } from "./Pages/BookKeepingPage/BookKeepingPage";
+import { OtherOrdersPage } from "./Pages/OtherOrdersPage/OtherOrdersPage";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
@@ -18,6 +19,9 @@ function App() {
           </Route>
           <Route path="/BookKeeping">
             <BookKeepingPage />
+          </Route>
+          <Route path="/OtherOrders">
+            <OtherOrdersPage />
           </Route>
         </Switch>
       </Router>
