@@ -20,7 +20,15 @@ export const OtherOrdersPage = () => {
                     </div>
                 </div>
                 <div className="OtherOrdersPageLowerMiddle"></div>
-                <div className="OtherOrdersPageLowerRight"></div>
+                <div className="OtherOrdersPageLowerRight">
+                    <div className="OtherOrdersPageBuyerInformation">
+                        <div className="OtherOrdersPageOrderTypeDiv"></div>
+                        <div className="OtherOrdersPageBuyerInformationDividingLine"></div>
+                        <div className="OtherOrdersPageBuyerAddressDiv"></div>
+                        <div className="OtherOrdersPageBuyerInformationDividingLine"></div>
+                        <div className="OtherOrdersPagePaymentMethod"></div>
+                    </div>
+                </div>
             </div>
         </div>
     );

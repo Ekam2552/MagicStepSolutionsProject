@@ -64,5 +64,41 @@
 .OtherOrdersPageLowerRight {
     width: 50%;
     height: 100%;
-    border: 1px solid blue;
+    display: flex;
+}
+
+.OtherOrdersPageBuyerInformation {
+    width: 80%;
+    height: 95%;
+    margin: auto auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.OtherOrdersPageBuyerInformation > * {
+    margin: 0.5rem 0;
+}
+
+.OtherOrdersPageOrderTypeDiv {
+    width: 100%;
+    height: 20%;
+    border: 1px solid red;
+}
+
+.OtherOrdersPageBuyerInformationDividingLine {
+    width: 100%;
+    height: 2px;
+    background-color: #a09e9ee1;
+}
+
+.OtherOrdersPageBuyerAddressDiv {
+    width: 100%;
+    height: 40%;
+    border: 1px solid red;
+}
+
+.OtherOrdersPagePaymentMethod {
+    width: 100%;
+    height: 40%;
+    border: 1px solid red;
 }
