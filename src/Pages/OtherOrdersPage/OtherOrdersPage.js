@@ -1,10 +1,46 @@
-import React from 'react';
+import React, { useState } from 'react';
 import "./OtherOrdersPage.css";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCreditCard, faMapMarkerAlt, faTruckMoving } from '@fortawesome/free-solid-svg-icons';
 
+import Select from 'react-select';
+
 export const OtherOrdersPage = () => {
+
+    const statusOptions = [
+        {
+            value: 1,
+            label: "Accepted"
+        },
+        {
+            value: 2,
+            label: "Packed"
+        },
+        {
+            value: 3,
+            label: "Shipped"
+        },
+        {
+            value: 4,
+            label: "Delivered"
+        },
+        {
+            value: 5,
+            label: "Canceled"
+        },
+        {
+            value: 6,
+            label: "Returned"
+        }
+    ];
+
+    const [selectedValue, setSelectedValue] = useState(0);
+
+    const handleChange = e => {
+        setSelectedValue(e.value);
+    }
+
     return(
         <div className="OtherOrdersPageContainer">
             <div className="OtherOrdersPageUpper">ORDER ID 656JH20210713</div>
@@ -22,15 +58,13 @@ export const OtherOrdersPage = () => {
                         </div>
                     </div>
                     <div className="OtherOrdersPageStatusDiv">
-                        <select className="OtherOrdersPageStatusCard">
-                            <option value="none">Select Status</option>
-                            <option value="Accepted">Accepted</option>
-                            <option value="Packed">Packed</option>
-                            <option value="Shipped">Shipped</option>
-                            <option value="Delivered">Deliverd</option>
-                            <option value="Canceled">Canceled</option>
-                            <option value="Returned">Returned</option>
-                        </select>
+                        <Select 
+                            className="OtherOrdersPageStatusCard"
+                            value={statusOptions.find(obj => obj.value === selectedValue)}
+                            placeholder="Select Status"
+                            options={statusOptions}
+                            onChange={handleChange}
+                            />
                     </div>
                 </div>
                 <div className="OtherOrdersPageLowerMiddle"></div>

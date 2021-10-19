@@ -3,7 +3,7 @@ import "./AddDetailsPage.css";
 
 import { TextAreaWithLabel } from "../../Components/TextAreaWithLabelComponent/TextAreaWithLabelComponent";
 
-import { Button } from "react-bootstrap";
+import { Button as ReactButton } from "react-bootstrap";
 
 export const AddDetailsPage = () => {
     return(
@@ -12,7 +12,7 @@ export const AddDetailsPage = () => {
             <div className="AddDetailsPageAboutDiv"><TextAreaWithLabel labelText="About" TextAreaHeight="6" placeholderText="Help users to know more about your business" /></div>
             <div className="AddDetailsPageReturnPolicyDiv"><TextAreaWithLabel labelText="Return Policy" TextAreaHeight="8" placeholderText="Mention about your return policy in details" /></div>
             <div className="AddDetailsPageSubmitButtonDiv">
-                <Button variant="success" className="AddDetailsPageSubmitButton">Submit</Button>
+                <ReactButton variant="success" className="AddDetailsPageSubmitButton">Submit</ReactButton>
             </div>
         </div>
     );
