@@ -1,5 +1,6 @@
 {
   "name": "magicstepproject",
+  "homepage": "https://Ekam2552.github.io/MagicStepSolutionsProject",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -20,6 +21,8 @@
     "yarn-upgrade-all": "^0.5.4"
   },
   "scripts": {
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
