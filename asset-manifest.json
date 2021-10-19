@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/MagicStepSolutionsProject/static/css/main.4f96ecfb.chunk.css",
+    "main.js": "/MagicStepSolutionsProject/static/js/main.ac53eca5.chunk.js",
+    "main.js.map": "/MagicStepSolutionsProject/static/js/main.ac53eca5.chunk.js.map",
+    "runtime-main.js": "/MagicStepSolutionsProject/static/js/runtime-main.561f13e1.js",
+    "runtime-main.js.map": "/MagicStepSolutionsProject/static/js/runtime-main.561f13e1.js.map",
+    "static/js/2.706909a2.chunk.js": "/MagicStepSolutionsProject/static/js/2.706909a2.chunk.js",
+    "static/js/2.706909a2.chunk.js.map": "/MagicStepSolutionsProject/static/js/2.706909a2.chunk.js.map",
+    "static/js/3.88b1e267.chunk.js": "/MagicStepSolutionsProject/static/js/3.88b1e267.chunk.js",
+    "static/js/3.88b1e267.chunk.js.map": "/MagicStepSolutionsProject/static/js/3.88b1e267.chunk.js.map",
+    "index.html": "/MagicStepSolutionsProject/index.html",
+    "static/css/main.4f96ecfb.chunk.css.map": "/MagicStepSolutionsProject/static/css/main.4f96ecfb.chunk.css.map",
+    "static/js/2.706909a2.chunk.js.LICENSE.txt": "/MagicStepSolutionsProject/static/js/2.706909a2.chunk.js.LICENSE.txt",
+    "static/media/busuiness_shop.454d34fa.jpg": "/MagicStepSolutionsProject/static/media/busuiness_shop.454d34fa.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.561f13e1.js",
+    "static/js/2.706909a2.chunk.js",
+    "static/css/main.4f96ecfb.chunk.css",
+    "static/js/main.ac53eca5.chunk.js"
+  ]
+}
