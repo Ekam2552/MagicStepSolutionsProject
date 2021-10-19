@@ -4,12 +4,12 @@ import { AddDetailsPage } from "./Pages/AddDetailsPage/AddDetailsPage";
 import { BookKeepingPage } from "./Pages/BookKeepingPage/BookKeepingPage";
 import { OtherOrdersPage } from "./Pages/OtherOrdersPage/OtherOrdersPage";
 
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
     <>
-      <Router>
+      <Router basename="/MagicStepSolutionsProject">
         <Switch>
           <Route exact path="/">
             <ControlCentrePage />
