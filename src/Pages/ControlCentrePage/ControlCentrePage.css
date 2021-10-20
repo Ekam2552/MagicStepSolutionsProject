@@ -156,7 +156,6 @@
     width: 80%;
     height: 25%;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding: 0.6rem;
@@ -164,4 +163,204 @@
 
 .lowerCardsContainer > * {
     margin: 0 1.7rem;
+}
+
+@media only screen and (max-width: 990px) {
+    .ControlCentrePageContainer {
+        height: 120vh;
+        overflow-y: auto;
+    }
+
+    .navbar {
+        height: 8rem;
+        flex-direction: column;
+        padding-top: 1rem;
+    }
+
+    .titleAndSubtitleDiv {
+        width: 90%;
+        margin-bottom: 1rem;
+    }
+
+    .searchBarDiv {
+        width: 90%;
+    }
+
+    .iconsDiv {
+        position: relative;
+        right: -20rem;
+        top: -5.5rem;
+    }
+
+    .upperCardsContainer {
+        width: 55%;
+        height: 50%;
+    }
+
+    .mainImage {
+        display: none;
+    }
+
+    .container {
+        height: 100%;
+        width: 80%;
+        display: grid;
+        grid-template-columns: 1fr 1fr; 
+        grid-template-rows: 1fr 1fr; 
+        gap: 50px 20px;
+        grid-template-areas: none;
+    }
+
+    .lowerCardsContainer {
+        width: 95%;
+        padding: 0;
+    }
+
+    .lowerCardsContainer > * {
+        margin: 0 1rem;
+    }
+}
+
+@media only screen and (max-width: 820px) {
+
+    .iconsDiv {
+        right: -16rem;
+    }
+
+    .upperCardsContainer {
+        height: 40%;
+        width: 50%;
+    }
+
+    .container {
+        gap: 30px 10px;
+    }
+
+    .lowerCardsContainer {
+        width: 100%;
+        height: 17%;
+        padding: 0;
+    }
+
+    .lowerCardsContainer > * {
+        margin: 0 0.7rem;
+    }
+}
+
+@media only screen and (max-width: 676px) {
+    .ControlCentrePageContainer {
+        height: 100vh;
+        overflow-y: hidden;
+    }
+
+    .iconsDiv {
+        right: -12rem;
+    }
+
+    .upperCardsContainer {
+        width: 55%;
+        height: 45%;
+    }
+
+    .container {
+        gap: 20px 5px;
+    }
+
+    .lowerCardsContainer > * {
+        margin: 0 0.5rem;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .iconsDiv {
+        right: -8rem;
+    }
+
+    .navbar {
+        width: 90%;
+    }
+
+    .cartIcon, .bellIcon {
+        font-size: 1.3rem;
+    }
+
+    .cartIcon {
+        margin-right: 2rem;
+    }
+
+    .bellIcon {
+        margin-right: 2.5rem;
+    }
+
+    .upperCardsContainer {
+        width: 70%;
+        height: 45%;
+        position: relative;
+        left: 1rem;
+    }
+
+    .container {
+        gap: 10px 2px;
+    }
+
+    .lowerCardsContainer {
+        height: 15%;
+    }
+
+    .lowerCardsContainer > * {
+        margin: 0 0.2rem;
+    }
+}
+
+@media only screen and (max-width: 412px) {
+    .iconsDiv {
+        right: -6rem;
+    }
+}
+
+@media only screen and (max-width: 361px) {
+    .iconsDiv {
+        right: -4.5rem;
+    }
+
+    .title {
+        font-size: 1.2rem;
+    }
+
+    .subtitle {
+        font-size: 1rem;
+    }
+
+    .upperCardsContainer {
+        position: relative;
+        left: 2rem;
+        width: 100%;
+        height: 45%;
+    }
+
+    .container {
+        gap: 5px 1px;
+    }
+
+    .lowerCardsContainer {
+        height: 20%;
+    }
+
+    .lowerCardsContainer > * {
+        margin: 0 0.1rem;
+    }
+}
+
+@media only screen and (max-width: 281px) {
+    .cartIcon, .bellIcon {
+        font-size: 1.1rem;
+    }
+
+    .cartIcon {
+        margin-right: 2rem;
+    }
+
+    .bellIcon {
+        margin-right: 1.5rem;
+    }
 }

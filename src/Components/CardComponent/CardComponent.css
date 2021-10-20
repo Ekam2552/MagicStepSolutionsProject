@@ -38,6 +38,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
 .noteContainer {
@@ -48,4 +49,37 @@
     align-items: center;
     justify-content: center;
     margin-top: auto;
+    text-align: center;
+}
+
+@media only screen and (max-width: 990px) {
+    .CardContainer {
+        width: 75%;
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width: 820px) {
+    .noteContainer {
+        font-size: 12px;
+    }
+
+    .titleContainer {
+        font-size: 13px;
+    }
+
+    .imageContainer {
+        width: 65%;
+        height: 55%;
+    }
+}
+
+@media only screen and (max-width: 451px) {
+    .CardContainer {
+        width: 110%;
+    }
+
+    .noteContainer {
+        font-size: 10px;
+    }
 }
