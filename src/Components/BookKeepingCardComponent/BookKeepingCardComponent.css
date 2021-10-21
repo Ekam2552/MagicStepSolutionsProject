@@ -44,6 +44,7 @@
     height: 30%;
     margin-top: 1.5rem;
     color: #656565;
+    text-align: start;
 }
 
 .BookKeepingCardComponentContainerRight {
@@ -92,4 +93,33 @@
 .BookKeepingCardComponentAdvance:hover {
     text-decoration: underline;
     transform: scale(0.9);
+}
+
+@media only screen and (max-width: 890px) {
+    .BookKeepingCardComponentContainer {
+        height: 20%;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .BookKeepingCardComponentNoteDiv {
+        font-size: 0.9rem;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .BookKeepingCardComponentNameDiv {
+        height: 8%;
+        font-size: 1rem;
+    }
+    .BookKeepingCardComponentNoteDiv {
+        height: 50%;
+        font-size: 0.8rem;
+    }
+}
+
+@media only screen and (max-height: 630px) {
+    .BookKeepingCardComponentContainer {
+        height: 25%;
+    }
 }

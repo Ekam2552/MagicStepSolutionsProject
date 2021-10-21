@@ -190,3 +190,13 @@
     height: 88%;
     background-color: #C4C4C4;
 }
+
+@media only screen and (max-width: 1110px) {
+    .BookKeepingRight {
+        display: none;
+    }
+
+    .BookKeepingLeft {
+        width: 100%;
+    }
+}
