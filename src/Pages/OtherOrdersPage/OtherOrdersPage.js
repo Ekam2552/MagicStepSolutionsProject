@@ -4,6 +4,8 @@ import "./OtherOrdersPage.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCreditCard, faMapMarkerAlt, faTruckMoving } from '@fortawesome/free-solid-svg-icons';
 
+import ProductImage from "../../assets/RedIphone.png";
+
 import Select from 'react-select';
 
 export const OtherOrdersPage = () => {
@@ -47,7 +49,9 @@ export const OtherOrdersPage = () => {
             <div className="OtherOrdersPageLower">
                 <div className="OtherOrdersPageLowerLeft">
                     <div className="OtherOrdersPageProductCardDiv">
-                        <div className="OtherOrdersPageProductCardImage"></div>
+                        <div className="OtherOrdersPageProductCardImageDiv">
+                            <img className="OtherOrdersPageProductCardImage" src={ProductImage} alt="Product" />
+                        </div>
                         <div className="OtherOrdersPageProductCardInformationDiv">
                             <div className="OtherOrdersPageProductCardInformationHeading">Apple Iphone 12</div>
                             <div className="OtherOrdersPageProductCardInformationColor">Red</div>

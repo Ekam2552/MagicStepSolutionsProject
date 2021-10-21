@@ -21,6 +21,7 @@
     height: 85%;
     margin: auto 0;
     display: flex;
+    flex-direction: row;
 }
 
 .OtherOrdersPageLowerLeft {
@@ -39,11 +40,15 @@
     flex-direction: row;
 }
 
-.OtherOrdersPageProductCardImage {
+.OtherOrdersPageProductCardImageDiv {
     width: 50%;
     height: 100%;
-    border: 1px solid black;
     margin-right: 1rem;
+}
+
+.OtherOrdersPageProductCardImage {
+    max-width: 90%;
+    height: auto;
 }
 
 .OtherOrdersPageProductCardInformationDiv {
@@ -173,6 +178,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    box-sizing: border-box;
 }
 
 .OtherOrdersPageBuyerAddressInformationDiv {
@@ -312,7 +318,228 @@
     height: 100%;
 }
 
+.OtherOrdersPagePaymentMethodTotalCostHeading {
+    font-weight: bolder;
+}
+
 .OtherOrdersPagePaymentMethodSubtotalCost, .OtherOrdersPagePaymentMethodShippingCost, .OtherOrdersPagePaymentMethodTotalCost {
     width: 35%;
     height: 100%;
+}
+
+.OtherOrdersPagePaymentMethodTotalCost {
+    font-weight: bolder;
+}
+
+@media only screen and (max-width: 1101px) {
+    .OtherOrdersPageContainer {
+        overflow: scroll;
+    }
+
+    .OtherOrdersPageProductCardDiv {
+        height: 70%;
+        margin: 0 auto;
+        margin-bottom: 2rem;
+    }
+
+    .OtherOrdersPageProductCardInformationHeading {
+        font-size: 0.85rem;
+    }
+
+    .OtherOrdersPageProductCardInformationColor {
+        font-size: 0.8rem;
+    }
+
+    .OtherOrdersPageLowerRight {
+        width: 70%;
+    }
+    
+    .OtherOrdersPageProductCardInformationQuantityDiv {
+        width: 100%;
+        height: 20%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .OtherOrdersPageProductCardInformationQuantityHeading {
+        font-size: 0.8rem;
+    }
+
+    .OtherOrdersPageProductCardInformationQuantity {
+        font-size: 0.7rem;
+    }
+
+    .OtherOrdersPageStatusDiv {
+        margin: 0 auto;
+        width: 40%;
+        height: 10%;
+        margin-bottom: 2rem;
+    }
+
+    .OtherOrdersPageStatusCard {
+        font-size: 1rem;
+    }
+
+    .OtherOrdersPageLower {
+        flex-direction: column;
+    }
+
+    .OtherOrdersPageUpper {
+        justify-content: center;
+    }
+
+    .OtherOrdersPageLowerLeft {
+        width: 100%;
+    }
+
+    .OtherOrdersPageLowerRight {
+        margin: 0 auto;
+    }
+
+    .OtherOrdersPageOrderTypeHeadingDiv {
+        font-size: 1.3rem;
+        margin-bottom: 1rem;
+    }
+
+    .OtherOrdersPageOrderTypeDiv {
+        margin-bottom: 2rem;
+    }
+
+    .OtherOrdersPageBuyerAddressInformationDiv {
+        width: 80%;
+    }
+
+    .OtherOrdersPageBuyerAddressHeading {
+        font-size: 1.3rem;
+    }
+
+    .OtherOrdersPageBuyerAddressDiv {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .OtherOrdersPageBuyerAddresseeName {
+        font-size: 1.1rem;
+    }
+
+    .OtherOrdersPagePaymentMethodHeading {
+        margin-bottom: 1rem;
+        font-size: 1.3rem;
+    }
+}
+
+@media only screen and (max-width: 740px) {
+    .OtherOrdersPageContainer {
+        overflow: scroll;
+    }
+
+    .OtherOrdersPageBuyerAddressMapMarkerIconDiv {
+        width: 5%;
+    }
+
+    .OtherOrdersPagePaymentMethod {
+        width: 80%;
+    }
+
+    .OtherOrdersPageLowerRight {
+        width: 80%;
+    }
+
+    .OtherOrdersPagePaymentMethodOrderDetailsHeading {
+        font-size: 1.1rem;
+    }
+
+    .OtherOrdersPagePaymentMethodShippingCostDiv, .OtherOrdersPagePaymentMethodSubtotalDiv, .OtherOrdersPagePaymentMethodTotalCostHeading {
+        width: 130%;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .OtherOrdersPageProductCardDiv {
+        width: 60%;
+    }
+
+    .OtherOrdersPageBuyerAddressHeading, .OtherOrdersPageOrderTypeHeadingDiv, .OtherOrdersPagePaymentMethodHeading {
+        font-size: 1rem;
+    }
+
+    .OtherOrdersPageBuyerAddresseeName {
+        font-size: 0.9rem;
+    }
+
+    .OtherOrdersPageBuyerAddressHeading, .OtherOrdersPageOrderTypeHeadingDiv, .OtherOrdersPagePaymentMethodHeading {
+        font-size: 1.2rem;
+    }
+
+    .OtherOrdersPagePaymentMethodOrderDetailsHeading {
+        margin-top: 1rem;
+        font-size: 1.2rem;
+    }
+
+    .OtherOrdersPagePaymentMethodSubtotalDiv, .OtherOrdersPagePaymentMethodShippingCostDiv, .OtherOrdersPagePaymentMethodTotalCostDiv, .OtherOrdersPageBuyerAddressLines, .OtherOrdersPageBuyerAddresseePhoneNumber, .OtherOrdersPageOrderTypeText {
+        font-size: 1.1rem;
+    }
+}
+
+@media only screen and (max-width: 450px)  {
+    .OtherOrdersPageLowerRight {
+        width: 90%;
+    }
+
+    .OtherOrdersPagePaymentMethodCardNumber {
+        width: 140%;
+        font-size: 0.9rem;
+        text-align: center;
+    }
+
+    .OtherOrdersPagePaymentMethodOrderDetailsHeading {
+        margin-top: 2rem;
+    }
+
+    .OtherOrdersPageBuyerAddressHeading, .OtherOrdersPageOrderTypeHeadingDiv, .OtherOrdersPagePaymentMethodHeading {
+        font-size: 1rem;
+    }
+
+    .OtherOrdersPagePaymentMethodOrderDetailsHeading {
+        margin-top: 1rem;
+        font-size: 1rem;
+    }
+
+    .OtherOrdersPagePaymentMethodSubtotalDiv, .OtherOrdersPagePaymentMethodShippingCostDiv, .OtherOrdersPagePaymentMethodTotalCostDiv, .OtherOrdersPageBuyerAddressLines, .OtherOrdersPageBuyerAddresseePhoneNumber, .OtherOrdersPageOrderTypeText {
+        font-size: 0.9rem;
+    }
+}
+
+@media only screen and (max-width: 361px) {
+    .OtherOrdersPageLowerRight {
+        width: 100%;
+    }
+
+    .OtherOrdersPageStatusDiv {
+        width: 80%;
+    }
+
+    .OtherOrdersPageBuyerAddressHeading, .OtherOrdersPageOrderTypeHeadingDiv, .OtherOrdersPagePaymentMethodHeading {
+        font-size: 0.8rem;
+    }
+
+    .OtherOrdersPagePaymentMethodOrderDetailsHeading {
+        margin-top: 1rem;
+        font-size: 0.8rem;
+    }
+
+    .OtherOrdersPagePaymentMethodSubtotalDiv, .OtherOrdersPagePaymentMethodShippingCostDiv, .OtherOrdersPagePaymentMethodTotalCostDiv, .OtherOrdersPageBuyerAddressLines, .OtherOrdersPageBuyerAddresseePhoneNumber, .OtherOrdersPageOrderTypeText {
+        font-size: 0.7rem;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .OtherOrdersPageProductCardInformationHeading {
+        font-size: 0.8rem;
+    }
+
+    .OtherOrdersPageProductCardDiv {
+        width: 100%;
+    }
 }
