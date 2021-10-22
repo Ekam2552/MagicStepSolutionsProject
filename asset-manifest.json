@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/MagicStepSolutionsProject/static/css/main.4f96ecfb.chunk.css",
-    "main.js": "/MagicStepSolutionsProject/static/js/main.33ffa592.chunk.js",
-    "main.js.map": "/MagicStepSolutionsProject/static/js/main.33ffa592.chunk.js.map",
+    "main.css": "/MagicStepSolutionsProject/static/css/main.77a21c5a.chunk.css",
+    "main.js": "/MagicStepSolutionsProject/static/js/main.930582c5.chunk.js",
+    "main.js.map": "/MagicStepSolutionsProject/static/js/main.930582c5.chunk.js.map",
     "runtime-main.js": "/MagicStepSolutionsProject/static/js/runtime-main.561f13e1.js",
     "runtime-main.js.map": "/MagicStepSolutionsProject/static/js/runtime-main.561f13e1.js.map",
-    "static/js/2.c5fa2053.chunk.js": "/MagicStepSolutionsProject/static/js/2.c5fa2053.chunk.js",
-    "static/js/2.c5fa2053.chunk.js.map": "/MagicStepSolutionsProject/static/js/2.c5fa2053.chunk.js.map",
+    "static/js/2.42ffb782.chunk.js": "/MagicStepSolutionsProject/static/js/2.42ffb782.chunk.js",
+    "static/js/2.42ffb782.chunk.js.map": "/MagicStepSolutionsProject/static/js/2.42ffb782.chunk.js.map",
     "static/js/3.88b1e267.chunk.js": "/MagicStepSolutionsProject/static/js/3.88b1e267.chunk.js",
     "static/js/3.88b1e267.chunk.js.map": "/MagicStepSolutionsProject/static/js/3.88b1e267.chunk.js.map",
     "index.html": "/MagicStepSolutionsProject/index.html",
-    "static/css/main.4f96ecfb.chunk.css.map": "/MagicStepSolutionsProject/static/css/main.4f96ecfb.chunk.css.map",
-    "static/js/2.c5fa2053.chunk.js.LICENSE.txt": "/MagicStepSolutionsProject/static/js/2.c5fa2053.chunk.js.LICENSE.txt",
+    "static/css/main.77a21c5a.chunk.css.map": "/MagicStepSolutionsProject/static/css/main.77a21c5a.chunk.css.map",
+    "static/js/2.42ffb782.chunk.js.LICENSE.txt": "/MagicStepSolutionsProject/static/js/2.42ffb782.chunk.js.LICENSE.txt",
+    "static/media/RedIphone.e081f83a.png": "/MagicStepSolutionsProject/static/media/RedIphone.e081f83a.png",
     "static/media/busuiness_shop.454d34fa.jpg": "/MagicStepSolutionsProject/static/media/busuiness_shop.454d34fa.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.561f13e1.js",
-    "static/js/2.c5fa2053.chunk.js",
-    "static/css/main.4f96ecfb.chunk.css",
-    "static/js/main.33ffa592.chunk.js"
+    "static/js/2.42ffb782.chunk.js",
+    "static/css/main.77a21c5a.chunk.css",
+    "static/js/main.930582c5.chunk.js"
   ]
 }
