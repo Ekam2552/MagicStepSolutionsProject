@@ -6,6 +6,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow-x: hidden;
+    flex-wrap: nowrap;
 }
 
 .ControlCentrePageContainer > * {
@@ -150,21 +152,30 @@
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
+    margin-bottom: 3rem;
 }
 
 .lowerCardsContainer {
     width: 80%;
     height: 25%;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 0 auto;
 }
 
 .lowerCardsContainer > * {
     margin: 0 1.7rem;
 }
 
-@media only screen and (max-width: 990px) {
+@media only screen and (max-width: 1221px) {
+    .lowerCardsContainer {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 1025px) {
     .ControlCentrePageContainer {
         height: 120vh;
     }
@@ -191,8 +202,8 @@
     }
 
     .upperCardsContainer {
-        width: 55%;
-        height: 50%;
+        width: 75%;
+        height: 40%;
     }
 
     .mainImage {
@@ -210,7 +221,7 @@
     }
 
     .lowerCardsContainer {
-        width: 95%;
+        width: 70%;
         padding: 0;
     }
 
@@ -227,7 +238,7 @@
 
     .upperCardsContainer {
         height: 40%;
-        width: 50%;
+        width: 70%;
     }
 
     .container {
@@ -242,6 +253,10 @@
 
     .lowerCardsContainer > * {
         margin: 0 0.7rem;
+    }
+
+    .manageYourBusinessheading {
+        margin-bottom: 1rem;
     }
 }
 
@@ -289,13 +304,6 @@
         margin-right: 2.5rem;
     }
 
-    .upperCardsContainer {
-        width: 70%;
-        height: 45%;
-        position: relative;
-        left: 1rem;
-    }
-
     .container {
         gap: 10px 2px;
     }
@@ -307,11 +315,36 @@
     .lowerCardsContainer > * {
         margin: 0 0.2rem;
     }
+
+    .upperCardsContainer {
+        position: relative;
+        left: 2rem;
+        width: 90%;
+        height: auto;
+    }
+
+    .lowerCardsContainer {
+        width: 90%;
+    }
+
+    .manageYourBusinessheading {
+        margin-bottom: 0;
+    }
 }
 
-@media only screen and (max-width: 412px) {
+@media only screen and (max-width: 415px) {
     .iconsDiv {
         right: -6rem;
+    }
+
+    .upperCardsContainer {
+        width: 100%;
+    }
+
+    .lowerCardsContainer {
+        width: 95%;
+        height: 20%;
+        justify-content: center;
     }
 }
 
@@ -329,9 +362,7 @@
     }
 
     .upperCardsContainer {
-        position: relative;
-        left: 2rem;
-        width: 100%;
+        width: 90%;
         height: 45%;
     }
 
@@ -339,12 +370,14 @@
         gap: 5px 1px;
     }
 
-    .lowerCardsContainer {
-        height: 20%;
-    }
-
     .lowerCardsContainer > * {
         margin: 0 0.1rem;
+    }
+}
+
+@media only screen and (max-width: 321px) {
+    .lowerCardsContainer {
+        width: 90%;
     }
 }
 

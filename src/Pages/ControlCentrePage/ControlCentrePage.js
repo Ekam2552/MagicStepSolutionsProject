@@ -3,7 +3,8 @@ import "./ControlCentrePage.css";
 
 import { Form } from 'react-bootstrap';
 
-import { CardComponent } from "../../Components/CardComponent/CardComponent";
+import { UpperCardComponent } from "../../Components/CardComponent/UpperCardComponent";
+import { LowerCardComponent } from "../../Components/CardComponent/LowerCardComponent";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBell, faShoppingCart } from '@fortawesome/free-solid-svg-icons'
@@ -39,28 +40,28 @@ export const ControlCentrePage = () => {
             <div className="upperCardsContainer">
                 <div class="container">
                     <div className="grid-item">
-                        <CardComponent 
+                        <UpperCardComponent 
                             imageUrl={invoiceImage}
                             title="Invoicing"
                             note=""
                         />
                     </div>
                     <div className="grid-item">
-                        <CardComponent 
+                        <UpperCardComponent 
                             imageUrl={orderImage}
                             title="Orders"
                             note="1 pending order"
                         />
                     </div>
                     <div className="grid-item">
-                        <CardComponent 
+                        <UpperCardComponent 
                             imageUrl={productImage}
                             title="Products"
                             note=""
                         />
                     </div>
                     <div className="grid-item">
-                        <CardComponent 
+                        <UpperCardComponent 
                             imageUrl={analyticsImage}
                             title="Analytics"
                             note=""
@@ -75,12 +76,12 @@ export const ControlCentrePage = () => {
                 Manage Your Business
             </div>
             <div className="lowerCardsContainer">
-                <CardComponent imageUrl={bookKeepingImage} title="Book Keeping" note="" />
-                <CardComponent imageUrl={extraChargeImage} title="Extra Charge" note="" />
-                <CardComponent imageUrl={shippingImage} title="Shipping" note="" />
-                <CardComponent imageUrl={aboutStoreImage} title="About Store" note="" />
-                <CardComponent imageUrl={paymentImage} title="Payment" note="" />
-                <CardComponent imageUrl={staffImage} title="Staff" note="" />
+                <LowerCardComponent imageUrl={bookKeepingImage} title="Book Keeping" note="" />
+                <LowerCardComponent imageUrl={extraChargeImage} title="Extra Charge" note="" />
+                <LowerCardComponent imageUrl={shippingImage} title="Shipping" note="" />
+                <LowerCardComponent imageUrl={aboutStoreImage} title="About Store" note="" />
+                <LowerCardComponent imageUrl={paymentImage} title="Payment" note="" />
+                <LowerCardComponent imageUrl={staffImage} title="Staff" note="" />
             </div>
         </div>
     );
