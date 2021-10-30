@@ -64,8 +64,6 @@
 
 @media only screen and (max-width: 1050px) {
     .LowerCardContainer {
-        width: 11rem;
-        height: 13rem;
         margin-bottom: 0.5rem;
     }
 
@@ -80,6 +78,13 @@
 
     .LowerCardNoteContainer {
         font-size: 1.1rem;
+    }
+}
+
+@media only screen and (max-width: 1025px) and (min-height: 1365px) {
+    .LowerCardContainer {
+        width: 10rem;
+        height: 11rem;
     }
 }
 
@@ -133,8 +138,8 @@
 
 @media only screen and (max-width: 415px) {
     .LowerCardContainer {
-        height: 8rem;
-        width: 7rem;
+        height: 7rem;
+        width: 6rem;
     }
 
     .LowerCardImageContainer {

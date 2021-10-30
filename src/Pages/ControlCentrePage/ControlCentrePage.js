@@ -7,7 +7,7 @@ import { UpperCardComponent } from "../../Components/CardComponent/UpperCardComp
 import { LowerCardComponent } from "../../Components/CardComponent/LowerCardComponent";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBell, faShoppingCart } from '@fortawesome/free-solid-svg-icons'
+import { faBell, faShare } from '@fortawesome/free-solid-svg-icons'
 
 import businessShopImage from "../../assets/busuiness_shop.jpg";
 import invoiceImage from "../../assets/invoice.png";
@@ -33,7 +33,7 @@ export const ControlCentrePage = () => {
                     <Form.Control type="text" placeholder="Search product" className="searchBar" />
                 </div>
                 <div className="iconsDiv">
-                    <div className="bellIcon"><FontAwesomeIcon icon={faShoppingCart} /></div>
+                    <div className="bellIcon"><FontAwesomeIcon icon={faShare} /></div>
                     <div className="cartIcon"><FontAwesomeIcon icon={faBell} /></div>
                 </div>
             </div>

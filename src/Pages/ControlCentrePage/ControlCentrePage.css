@@ -107,13 +107,13 @@
 
 .upperCardsContainer {
     width: 80%;
-    height: 50%;
+    height: auto;
 }
 
 .container {
     height: 100%;
     display: grid; 
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
+    grid-template-columns: 1fr 2fr 1fr 1fr 1fr; 
     grid-template-rows: 1fr 1fr; 
     gap: 10px 0; 
     grid-template-areas: 
@@ -176,8 +176,9 @@
 }
 
 @media only screen and (max-width: 1025px) {
-    .ControlCentrePageContainer {
-        height: 120vh;
+    .upperCardsContainer {
+        width: 80%;
+        height: auto;
     }
 
     .navbar {
@@ -201,11 +202,6 @@
         top: -5.5rem;
     }
 
-    .upperCardsContainer {
-        width: 75%;
-        height: 40%;
-    }
-
     .mainImage {
         display: none;
     }
@@ -216,17 +212,24 @@
         display: grid;
         grid-template-columns: 1fr 1fr; 
         grid-template-rows: 1fr 1fr; 
-        gap: 50px 20px;
+        gap: 40px 20px;
         grid-template-areas: none;
     }
 
     .lowerCardsContainer {
-        width: 70%;
+        width: 90%;
         padding: 0;
     }
 
     .lowerCardsContainer > * {
         margin: 0 1rem;
+    }
+}
+
+@media only screen and (width: 1024px) and (height: 600px) {
+    .upperCardsContainer {
+        width: 60%;
+        height: auto;
     }
 }
 
@@ -237,7 +240,6 @@
     }
 
     .upperCardsContainer {
-        height: 40%;
         width: 70%;
     }
 
@@ -246,7 +248,7 @@
     }
 
     .lowerCardsContainer {
-        width: 80%;
+        width: 90%;
         height: 17%;
         padding: 1rem;
     }
@@ -305,7 +307,7 @@
     }
 
     .container {
-        gap: 10px 2px;
+        gap: 15px 2px;
     }
 
     .lowerCardsContainer {
@@ -313,7 +315,7 @@
     }
 
     .lowerCardsContainer > * {
-        margin: 0 0.2rem;
+        margin: 0 0.5rem;
     }
 
     .upperCardsContainer {
@@ -367,11 +369,7 @@
     }
 
     .container {
-        gap: 5px 1px;
-    }
-
-    .lowerCardsContainer > * {
-        margin: 0 0.1rem;
+        gap: 10px 1px;
     }
 }
 
