@@ -228,7 +228,7 @@
 
 @media only screen and (width: 1024px) and (height: 600px) {
     .upperCardsContainer {
-        width: 60%;
+        width: 50%;
         height: auto;
     }
 }
