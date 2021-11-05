@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/MagicStepSolutionsProject/static/css/main.205ae6ed.chunk.css",
+    "main.css": "/MagicStepSolutionsProject/static/css/main.76b43da3.chunk.css",
     "main.js": "/MagicStepSolutionsProject/static/js/main.29af52ef.chunk.js",
     "main.js.map": "/MagicStepSolutionsProject/static/js/main.29af52ef.chunk.js.map",
     "runtime-main.js": "/MagicStepSolutionsProject/static/js/runtime-main.561f13e1.js",
@@ -10,7 +10,7 @@
     "static/js/3.88b1e267.chunk.js": "/MagicStepSolutionsProject/static/js/3.88b1e267.chunk.js",
     "static/js/3.88b1e267.chunk.js.map": "/MagicStepSolutionsProject/static/js/3.88b1e267.chunk.js.map",
     "index.html": "/MagicStepSolutionsProject/index.html",
-    "static/css/main.205ae6ed.chunk.css.map": "/MagicStepSolutionsProject/static/css/main.205ae6ed.chunk.css.map",
+    "static/css/main.76b43da3.chunk.css.map": "/MagicStepSolutionsProject/static/css/main.76b43da3.chunk.css.map",
     "static/js/2.db74fd61.chunk.js.LICENSE.txt": "/MagicStepSolutionsProject/static/js/2.db74fd61.chunk.js.LICENSE.txt",
     "static/media/RedIphone.e081f83a.png": "/MagicStepSolutionsProject/static/media/RedIphone.e081f83a.png",
     "static/media/aboutStore.4f132e44.svg": "/MagicStepSolutionsProject/static/media/aboutStore.4f132e44.svg",
@@ -28,7 +28,7 @@
   "entrypoints": [
     "static/js/runtime-main.561f13e1.js",
     "static/js/2.db74fd61.chunk.js",
-    "static/css/main.205ae6ed.chunk.css",
+    "static/css/main.76b43da3.chunk.css",
     "static/js/main.29af52ef.chunk.js"
   ]
 }
