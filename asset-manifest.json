@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/MagicStepSolutionsProject/static/css/main.0989e781.chunk.css",
-    "main.js": "/MagicStepSolutionsProject/static/js/main.8f64c159.chunk.js",
-    "main.js.map": "/MagicStepSolutionsProject/static/js/main.8f64c159.chunk.js.map",
+    "main.css": "/MagicStepSolutionsProject/static/css/main.1f49e69b.chunk.css",
+    "main.js": "/MagicStepSolutionsProject/static/js/main.29af52ef.chunk.js",
+    "main.js.map": "/MagicStepSolutionsProject/static/js/main.29af52ef.chunk.js.map",
     "runtime-main.js": "/MagicStepSolutionsProject/static/js/runtime-main.561f13e1.js",
     "runtime-main.js.map": "/MagicStepSolutionsProject/static/js/runtime-main.561f13e1.js.map",
     "static/js/2.db74fd61.chunk.js": "/MagicStepSolutionsProject/static/js/2.db74fd61.chunk.js",
@@ -10,15 +10,25 @@
     "static/js/3.88b1e267.chunk.js": "/MagicStepSolutionsProject/static/js/3.88b1e267.chunk.js",
     "static/js/3.88b1e267.chunk.js.map": "/MagicStepSolutionsProject/static/js/3.88b1e267.chunk.js.map",
     "index.html": "/MagicStepSolutionsProject/index.html",
-    "static/css/main.0989e781.chunk.css.map": "/MagicStepSolutionsProject/static/css/main.0989e781.chunk.css.map",
+    "static/css/main.1f49e69b.chunk.css.map": "/MagicStepSolutionsProject/static/css/main.1f49e69b.chunk.css.map",
     "static/js/2.db74fd61.chunk.js.LICENSE.txt": "/MagicStepSolutionsProject/static/js/2.db74fd61.chunk.js.LICENSE.txt",
     "static/media/RedIphone.e081f83a.png": "/MagicStepSolutionsProject/static/media/RedIphone.e081f83a.png",
-    "static/media/busuiness_shop.454d34fa.jpg": "/MagicStepSolutionsProject/static/media/busuiness_shop.454d34fa.jpg"
+    "static/media/aboutStore.4f132e44.svg": "/MagicStepSolutionsProject/static/media/aboutStore.4f132e44.svg",
+    "static/media/analytics.824658cf.svg": "/MagicStepSolutionsProject/static/media/analytics.824658cf.svg",
+    "static/media/bookKeeping.8d941382.svg": "/MagicStepSolutionsProject/static/media/bookKeeping.8d941382.svg",
+    "static/media/busuiness_shop.454d34fa.jpg": "/MagicStepSolutionsProject/static/media/busuiness_shop.454d34fa.jpg",
+    "static/media/extraCharges.6879bcf2.svg": "/MagicStepSolutionsProject/static/media/extraCharges.6879bcf2.svg",
+    "static/media/invoice.696e2c26.svg": "/MagicStepSolutionsProject/static/media/invoice.696e2c26.svg",
+    "static/media/order.8d11b321.svg": "/MagicStepSolutionsProject/static/media/order.8d11b321.svg",
+    "static/media/payment.47387bdb.svg": "/MagicStepSolutionsProject/static/media/payment.47387bdb.svg",
+    "static/media/products.5e685e2e.svg": "/MagicStepSolutionsProject/static/media/products.5e685e2e.svg",
+    "static/media/shipping.293f79da.svg": "/MagicStepSolutionsProject/static/media/shipping.293f79da.svg",
+    "static/media/staff.cf3b8ca4.svg": "/MagicStepSolutionsProject/static/media/staff.cf3b8ca4.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.561f13e1.js",
     "static/js/2.db74fd61.chunk.js",
-    "static/css/main.0989e781.chunk.css",
-    "static/js/main.8f64c159.chunk.js"
+    "static/css/main.1f49e69b.chunk.css",
+    "static/js/main.29af52ef.chunk.js"
   ]
 }
