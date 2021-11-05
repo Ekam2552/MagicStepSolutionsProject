@@ -10,16 +10,16 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBell, faShare } from '@fortawesome/free-solid-svg-icons'
 
 import businessShopImage from "../../assets/busuiness_shop.jpg";
-import invoiceImage from "../../assets/invoice.png";
-import orderImage from "../../assets/order.png";
-import productImage from "../../assets/products.png";
-import analyticsImage from "../../assets/Analytics.png";
-import bookKeepingImage from "../../assets/bookkeeping.png";
-import extraChargeImage from "../../assets/extracharge.png";
-import shippingImage from "../../assets/Shipping.png";
-import aboutStoreImage from "../../assets/About Store.png";
-import paymentImage from "../../assets/Payment.png";
-import staffImage from "../../assets/Staff.png";
+import invoiceImage from "../../assets/invoice.svg";
+import orderImage from "../../assets/order.svg";
+import productImage from "../../assets/products.svg";
+import analyticsImage from "../../assets/analytics.svg";
+import bookKeepingImage from "../../assets/bookKeeping.svg";
+import extraChargeImage from "../../assets/extraCharges.svg";
+import shippingImage from "../../assets/shipping.svg";
+import aboutStoreImage from "../../assets/aboutStore.svg";
+import paymentImage from "../../assets/payment.svg";
+import staffImage from "../../assets/staff.svg";
 
 export const ControlCentrePage = () => {
     return(

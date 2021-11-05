@@ -10,6 +10,7 @@
     box-shadow: 0px 0px 8px -1px rgba(0,0,0,0.68);
     -webkit-box-shadow: 0px 0px 8px -1px rgba(0,0,0,0.68);
     -moz-box-shadow: 0px 0px 8px -1px rgba(0,0,0,0.68);
+    border-radius: 5px;
 }
 
 .UpperCardContainer > * {
@@ -68,14 +69,14 @@
     }
 
     .UpperCardContainer {
-        width: 90%;
-        height: 100%;
+        width: 80%;
+        height: 90%;
     }
 }
 
 @media only screen and (max-width: 990px) {
     .UpperCardContainer {
-        width: 75%;
+        width: 85%;
         height: 100%;
     }
 }
