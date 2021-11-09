@@ -123,6 +123,7 @@
     padding: 1rem 1.2rem;
     border-radius: 50%;
     font-size: 1.3rem;
+    position: sticky;
 }
 
 .BookKeepingPlusIcon {
